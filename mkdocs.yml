@@ -31,8 +31,10 @@ nav:
   - Tabela SIGTAP: tabelas.md
   - Fluxo do Faturamento: fluxo_faturamento.md
   - Faturamento ambulatorial: fat_amb.md
+  - Faturamento APAC: apac.md
   - Tópicos Especiais: topicos.md
   - Auditoria: auditoria.md
+  - Glosas de faturamento no SUS : glosas.md
   - Links úteis: links.md
 
 markdown_extensions:
