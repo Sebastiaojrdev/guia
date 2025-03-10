@@ -1,0 +1,50 @@
+site_name: Guia de Faturamento Fhemig
+
+theme:
+  name: material
+  custom_dir: overrides  # Mantém a personalização
+  features:
+    - navigation.tabs  # Habilita a navegação horizontal
+    - navigation.tabs.sticky  # Mantém a barra fixa ao rolar a página
+    - navigation.sections  # Agrupa seções em dropdowns
+    - toc.integrate  # Move o sumário para a direita
+    
+    
+  language: pt-BR
+  font:
+    text: Arial
+  favicon: imagens/favicon.ico
+  features:
+      - annouce.dismiss
+  logo: imagens/favicon.png
+  palette:
+    scheme: default  # Mantém o azul padrão
+    primary: indigo  # Azul Material padrão
+    accent: blue  # Destaque em azul
+    
+nav:
+  - Capa: capa.md
+  - Introdução: index.md
+  - CNES: cnes.md
+  - SIA: sia.md
+  - SIH: SIH_SUS.md
+  - Tabela SIGTAP: tabelas.md
+  - Fluxo do Faturamento: fluxo_faturamento.md
+  - Faturamento ambulatorial: fat_amb.md
+  - Tópicos Especiais: topicos.md
+  - Auditoria: auditoria.md
+  - Links úteis: links.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  generator: false
+  
+plugins:
+  - privacy
+  - search
